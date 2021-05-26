@@ -1,6 +1,7 @@
 ---
-- hosts: 172.17.1.234
+- hosts: windows
   connection: winrmi
+  gather:facts: yes
   tasks:
   - name: ping
     win_ping:
