@@ -1,4 +1,5 @@
 ---
+- hosts: windows
   connection: winrmi
   gather_facts: yes
   tasks:
