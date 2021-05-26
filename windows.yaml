@@ -1,6 +1,6 @@
 ---
 - hosts: wins16.example.com
-  ansible_connection: winrmi
+  connection: winrmi
   tasks:
   - name: ping
     win_ping:
