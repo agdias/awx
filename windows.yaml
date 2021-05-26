@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: wins16.example.com
   tasks:
   - name: ping
     win_ping:
