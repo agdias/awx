@@ -1,7 +1,5 @@
-
 [windows]
 wins16.example.com
-
 [windows:vars]
 ansible_user=Administrator
 ansible_password="h1y9E6s9tr"
@@ -11,5 +9,3 @@ ansible_connection=winrm
 ansible_user=Administrator
 ansible_password=h1y9E6s9tr
 ansible_winrm_transport=basic
-
-
