@@ -7,3 +7,9 @@ ansible_password="h1y9E6s9tr"
 ansible_port=5986
 ansibleconnection=winrm
 ansible_winrm_server_cert_validation=ignore
+
+ansible_connection: winrm
+ansible_user: Administrator
+ansible_password: h1y9E6s9tr
+
+
