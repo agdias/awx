@@ -1,7 +1,7 @@
 [all]
-192.168.0.14
+172.17.1.234
 [windows]
-192.168.0.14
+172.17.1.234
 
 [windows:vars]
 ansible_user=Administrator
