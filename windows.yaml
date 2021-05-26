@@ -1,0 +1,10 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+  - name: Ensure 7-Zip is installed via Chocolatey
+    name: 7zip
+    state: present
+  - name: Install 7zip via win_package
+    path: C:\tmp\7z.msi
+    state: present
