@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  ansible_connection: winrmi
   gather_facts: yes
   tasks:
   - name: ping
