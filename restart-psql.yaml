@@ -3,9 +3,9 @@
   
   gather_facts: no
   tasks:
-    
-    - name: Restart a service
-      ansible.windows.win_service:
-        name: postgresql-x64-13
-        state: restarted
-    
+  - name: Restart Postgresql
+    ansible.windows.win_service:
+      name: postgresql-x64-13
+      state: restarted
+  
+  
