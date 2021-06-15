@@ -2,7 +2,7 @@
 172.18.1.181
 [windows:vars]
 ansible_user = Administrator
-ansible_password = "h1y9E6s9tr"
+ansible_password = "!1m9a8Z4urka"
 ansible_port= 5985
 ansible_winrm_server_cert_validation = ignore
 ansible_connection = winrm
