@@ -1,0 +1,5 @@
+---
+name: restart postgresql
+ansible.windows.win_service:
+    name: postgresql-x64-13
+    state: restarted
