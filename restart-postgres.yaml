@@ -1,4 +1,7 @@
 ---
+- hosts: all
+  gather_facts: no
+  tasks:  
 - name: restart postgresql
   win_service:
     name: postgresql-x64-13
