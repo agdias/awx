@@ -1,4 +1,8 @@
 ---
+server_url: http://awx.example.com
+login_user: admin
+login_password: h1y9E6s9tr
+
 - hosts: all
   gather_facts: no
   tasks:  
@@ -6,3 +10,4 @@
     win_service:
       name: postgresql-x64-13
       state: restarted
+  
